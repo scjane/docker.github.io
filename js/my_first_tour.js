@@ -1,7 +1,3 @@
-function isFunction(possibleFunction) {
-  return typeof(possibleFunction) === typeof(Function);
-}
-
 // Find which tab is currently active
 function findActiveTab() {
   var tab;
