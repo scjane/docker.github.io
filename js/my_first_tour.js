@@ -40,7 +40,7 @@ var tour = {
     },
     {
       title: "Top Navigation",
-      content: "Use the top-level tabs discover the types of content available.",
+      content: "Use the top-level tabs to discover the types of content available.",
       target: "top-nav-container",
       placement: "bottom",
       arrowOffset: "560px",
@@ -116,7 +116,7 @@ var tour = {
     },
     {
       title: "Left Navigation",
-      content: "Use the left navigation to browse all a structured view of topics provided on a top-level category tab.",
+      content: "Use the left navigation to browse a structured view of all topics provided within a tab.",
       target: "left-nav",
       placement: "right",
       yOffset: "100px",
@@ -131,7 +131,7 @@ var tour = {
     },
     {
       title: "On-page navigation",
-      content: "Use on-page navigation links to jump (instead of scroll) to topics on the page you are currently viewing.<br />This is especially helpful for long pages with a lot of content.",
+      content: "Use on-page links to jump to topics on the page you are currently viewing.<br /><br />This is especially helpful for long pages with lots of content.",
       target: "side-toc",
       placement: "left",
       yOffset: "100px",
