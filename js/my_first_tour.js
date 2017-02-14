@@ -40,7 +40,7 @@ var tour = {
     },
     {
       title: "Top Navigation",
-      content: "Use the top navigation to discover the types of content available.",
+      content: "Discover the types of content available.",
       target: "top-nav-container",
       placement: "bottom",
       arrowOffset: "560px",
@@ -52,7 +52,7 @@ var tour = {
     },
     {
       title: "Guides",
-      content: "Use the <b>Guides</b> to learn how to install, configure, and manage Docker as a whole, or to view the docs archives for previous Docker versions.",
+      content: "Learn how to install, configure, and manage Docker as a whole, or to view the docs archives for previous Docker versions.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -63,7 +63,7 @@ var tour = {
     },
     {
       title: "Product Manuals",
-      content: "Use the <b>Product Manuals</b> to learn detailed information about a specific Docker product, such as Docker Cloud or UCP.",
+      content: "Learn about a specific Docker product, such as Docker Cloud or UCP.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -75,7 +75,7 @@ var tour = {
     },
     {
       title: "Glossary",
-      content: "Use the <b>Glossary</b> to quickly define and learn about terminology specific to Docker.",
+      content: "Learn about terminology specific to Docker.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -87,7 +87,7 @@ var tour = {
     },
     {
       title: "Reference",
-      content: "Use the <b>Reference</b> to go straight to reference information about Docker, such as API and CLI reference topics.",
+      content: "Go straight to reference information about Docker, such as API and CLI reference topics.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -99,7 +99,7 @@ var tour = {
     },
     {
       title: "Samples",
-      content: "Use the <b>Samples</b> to learn about Docker using self-paced tutorials, labs, and sample Docker applications.",
+      content: "Learn about Docker by using self-paced tutorials, labs, and sample Docker applications.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -124,7 +124,7 @@ var tour = {
     },
     {
       title: "Feedback Links",
-      content: "Use the feedback links to edit the page, provide feedback, or find out how to get support.",
+      content: "Use these options to edit the page, provide feedback, or find out how to get support.",
       target: "feedback-links",
       placement: "left",
       arrowOffset: "center"
