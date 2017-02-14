@@ -40,7 +40,7 @@ var tour = {
     },
     {
       title: "Top Navigation",
-      content: "Discover the types of content available.",
+      content: "Use the top-level tabs discover the types of content available.",
       target: "top-nav-container",
       placement: "bottom",
       arrowOffset: "560px",
@@ -52,7 +52,7 @@ var tour = {
     },
     {
       title: "Guides",
-      content: "Learn how to install, configure, and manage Docker as a whole, or to view the docs archives for previous Docker versions.",
+      content: "Learn how to install, configure, and manage Docker as a whole, or view the docs archives for previous Docker versions.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -63,7 +63,7 @@ var tour = {
     },
     {
       title: "Product Manuals",
-      content: "Learn about a specific Docker product, such as Docker Cloud or UCP.",
+      content: "Learn about Docker products and tools, such as Docker Cloud, UCP, Docker for Mac, or Docker for Windows.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -116,7 +116,7 @@ var tour = {
     },
     {
       title: "Left Navigation",
-      content: "Use the left navigation for a structured view of content within a top-level category.",
+      content: "Use the left navigation to browse all a structured view of topics provided on a top-level category tab.",
       target: "left-nav",
       placement: "right",
       yOffset: "100px",
@@ -130,8 +130,8 @@ var tour = {
       arrowOffset: "center"
     },
     {
-      title: "In-page navigation",
-      content: "Use the in-page navigation links to jump to specific areas within the page you are viewing.<br />This is especially helpful on pages with a lot of content.",
+      title: "On-page navigation",
+      content: "Use on-page navigation links to jump (instead of scroll) to topics on the page you are currently viewing.<br />This is especially helpful for long pages with a lot of content.",
       target: "side-toc",
       placement: "left",
       yOffset: "100px",
