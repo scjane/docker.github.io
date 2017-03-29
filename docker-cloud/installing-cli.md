@@ -114,7 +114,7 @@ For example:
 $ export DOCKERCLOUD_NAMESPACE=myorganization
 ```
 
-You can also set the `DOCKERCLOUD_NAMESPACE` variable before each CLI command.
+You can also set the `DOCKERCLOUD_NAMESPACE` variable before each CLI command,
 for example:
 
 ```none
