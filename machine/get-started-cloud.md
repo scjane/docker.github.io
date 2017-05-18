@@ -8,7 +8,7 @@ Docker Machine driver plugins are available for many cloud platforms, so you can
 
 You'll need to install and run Docker Machine, and create an account with the cloud provider.
 
-Then you provide account verification, security credentials, and configuration options for the providers as flags to `docker-machine create`. The flags are unique for each cloud-specific driver.  For instance, to pass a Digital Ocean access token you use the `--digitalocean-access-token` flag. Take a look at the examples below for Digital Ocean and AWS.
+Then you provide account verification, security credentials, and configuration options for the providers as flags to `docker-machine create`. The flags are unique for each cloud-specific driver. For instance, to pass a Digital Ocean access token you use the `--digitalocean-access-token` flag. Take a look at the examples below for Digital Ocean and AWS.
 
 ## Examples
 
@@ -32,7 +32,7 @@ For a step-by-step guide on using Machine to create Dockerized AWS instances, se
 
 The `docker-machine create` command typically requires that you specify, at a minimum:
 
-* `--driver` - to indicate the provider on which to create the machine  (VirtualBox, DigitalOcean, AWS, and so on)
+* `--driver` - to indicate the provider on which to create the machine (VirtualBox, DigitalOcean, AWS, and so on)
 
 * Account verification and security credentials (for cloud providers), specific to the cloud service you are using
 
@@ -56,7 +56,7 @@ See <a href="../machine/drivers/" target="_blank">Docker Machine driver referenc
 
 ## Adding a host without a driver
 
-You can register an already existing docker host by passing the daemon url. With that, you can have the same workflow than an host provisioned by docker-machine
+You can register an already existing docker host by passing the daemon url. With that, you can have the same workflow as that for a host provisioned by docker-machine.
 
     $ docker-machine create --driver none --url=tcp://50.134.234.20:2376 custombox
     $ docker-machine ls
