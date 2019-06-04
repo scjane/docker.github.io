@@ -16,7 +16,7 @@ In the coming months, we will gradually convert Classic Automated Builds into ne
 be a seamless process for most users.
 
 
-## Managing Classic Automated Builds
+## Manage Classic Automated Builds
 
 You can manage both Classic and new Automated Builds from the **Builds** tab
 
@@ -39,7 +39,7 @@ Likewise, you can switch back to new Automated Build by clicking on this link at
 
 
 
-## Adding Github webhook manually
+## Add Github webhook manually
 
 A GitHub webhook allows GitHub to notify Docker Hub when something has
 been committed to a given Git repository. 
